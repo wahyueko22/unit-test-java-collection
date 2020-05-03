@@ -62,7 +62,7 @@ public class MockArrayListTest {
 	public void remove_1() {
 		MockArrayList<String> ls = this.init();
 		ls.remove("1000");
-		assertEquals("Removing 1 list",4, ls.getSize());
+		assertEquals("Removing 1 list",3, ls.getSize());
 	}
 	
 	@Test

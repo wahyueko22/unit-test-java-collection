@@ -35,7 +35,7 @@ public class MockArrayList<E> {
 				for (int j = i; j < elementData.length - 1; j++) {
 					elementData[j] = elementData[j + 1];
 				}
-
+				this.index--;
 				break;
 			}
 		}
