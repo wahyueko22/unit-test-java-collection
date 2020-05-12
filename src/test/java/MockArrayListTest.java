@@ -7,6 +7,8 @@ import java.util.ArrayList;
 
 import org.junit.Test;
 
+import com.arraylist.MockArrayList;
+
 public class MockArrayListTest {
 	
 	public MockArrayList<String> init() {
